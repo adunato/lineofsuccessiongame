@@ -43,6 +43,7 @@
     margin-right: auto;
 }
 
+
 .clearfix:before,
 .clearfix:after,
 .navbar:before,
@@ -931,6 +932,93 @@ fieldset[disabled] .btn-template-primary.active {
     letter-spacing: 0.08em;
 }
 
+#features {
+    /*background: url('../img/home.jpg') no-repeat center top;*/
+    /*-webkit-background-size: cover;*/
+    /*-moz-background-size: cover;*/
+    /*-o-background-size: cover;*/
+    /*background-size: cover;*/
+}
+
+#features .item {
+    font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 500;
+    line-height: 26.4px;
+}
+
+#features .separator{
+    background: url('../img/separator.png') no-repeat 0% 0%;
+    height: 10px;
+    background-size: 20%;
+}
+
+#features .separator2{
+    background: url('../img/separator2.png') no-repeat 50% 0%;
+    height: 30px;
+    background-size: 50% 50%;
+}
+
+#features .icon-map{
+    background: url('../img/icon_world.png') no-repeat;
+    height: 60px;
+    width: 60px;
+    background-size: 100% 100%;
+    margin: auto;
+}
+
+#features .icon-people{
+    background: url('../img/icon_people.png') no-repeat;
+    height: 60px;
+    width: 60px;
+    background-size: 100% 100%;
+    margin: auto;
+}
+
+#features .icon-ai{
+    background: url('../img/icon_ai.png') no-repeat;
+    height: 60px;
+    width: 60px;
+    background-size: 100% 100%;
+    margin: auto;
+}
+
+#features .icon-coins{
+    background: url('../img/icon_coins.png') no-repeat;
+    height: 60px;
+    width: 60px;
+    background-size: 100% 100%;
+    margin: auto;
+}
+
+#features .icon-policies{
+    background: url('../img/icon_policies.png') no-repeat;
+    height: 60px;
+    width: 60px;
+    background-size: 100% 100%;
+    margin: auto;
+}
+
+#features .icon-cultures{
+    background: url('../img/icon_cultures.png') no-repeat;
+    height: 60px;
+    width: 60px;
+    background-size: 100% 100%;
+    margin: auto;
+}
+
+#features .item h1 {
+    font-size: 15px;
+    color: #424242;
+}
+
+@media (min-width: 991px) {
+    #features .item h1 {
+        font-size: 30px;
+    }
+}
+
 @media (max-width: 991px) {
     #intro .item h1 {
         font-size: 40px;
@@ -1765,7 +1853,7 @@ fieldset[disabled] .btn-template-primary.active {
 }
 
 .box-simple p {
-    color: #999999;
+    color: #555555;
 }
 
 .box-simple:hover .icon {
@@ -2108,6 +2196,31 @@ fieldset[disabled] .btn-template-primary.active {
 #heading-breadcrumbs ul.breadcrumb {
     margin-top: 5px;
     margin-bottom: 0;
+}
+
+#logobar {
+    background: url('../img/line_of_succession_background.jpg');
+    background-size: cover;
+    height: 100vh;
+    border-top: solid 1px #999999;
+    border-bottom: solid 1px #999999;
+}
+
+#logotitle {
+    height: 100vh;
+    background: url('../img/line_of_succession_logo.png') no-repeat 50% 60%;
+    background-size: 80%;
+}
+
+#pitchbackground {
+    background: url('../img/pitch_background.jpg');
+    background-size: cover;
+    /*height: 100vh;*/
+    height: auto;
+    border-bottom: solid 1px #999999;
+    padding: 60px 0;
+    /*margin-bottom: 20px;*/
+    /*margin-top: 20px;*/
 }
 
 .bar {
